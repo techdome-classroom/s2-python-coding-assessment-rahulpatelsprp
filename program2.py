@@ -3,7 +3,7 @@ from itertools import pairwise
 
 class Solution(object):
     def romanToInt(self, s):
-         m = {
+        m = {
             'I': 1,
             'V': 5,
             'X': 10,
