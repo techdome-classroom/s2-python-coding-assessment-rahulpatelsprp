@@ -8,7 +8,8 @@ class Solution(object):
                top_element = stack.pop() if stack else '#'
                if mapping[char] != top_element:
                    return False
-            else 
+            else:
+                stack.append(char)
 
 
 
