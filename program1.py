@@ -4,7 +4,8 @@ class Solution(object):
        mapping= { ')':'(','}':'{',']':'[' }
        
        for char in s:
-           if char
+           if char in mapping:
+               
        
 
 
