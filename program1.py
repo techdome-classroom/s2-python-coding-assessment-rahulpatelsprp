@@ -7,7 +7,7 @@ class Solution(object):
             if char in mapping:
                 top_element = stack.pop() if stack else '#'
                 if mapping[char] != top_element:
-                   return False
+                    return False
             else:
                 stack.append(char)
 
