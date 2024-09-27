@@ -1,6 +1,3 @@
-from itertools import pairwise
-
-
 class Solution(object):
     def romanToInt(self, s):
         m = {
