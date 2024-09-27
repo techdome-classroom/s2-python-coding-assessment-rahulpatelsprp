@@ -1,6 +1,5 @@
 class Solution(object):
     def romanToInt(self, s):
-    
         roman_to_integer = {
             'I': 1,
             'V': 5,
